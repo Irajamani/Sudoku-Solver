@@ -65,7 +65,7 @@ def update_prev(size):
     c = prev.pop()
     i = c // size
     j = c % size
-    
+    new_value = value_dict[i*size+j]  
 
 
 
